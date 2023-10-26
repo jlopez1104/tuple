@@ -22,5 +22,10 @@ bear={'grizzly':'brown',
 'black bear':'black',
 'polar':'white',
 'spirit':'white',}
-
+#look up by key
 print(bear['polar'])
+print(bear.keys())
+#add a value
+bear['koala'] = 'grey'
+
+print(bear)

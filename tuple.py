@@ -29,3 +29,13 @@ print(bear.keys())
 bear['koala'] = 'grey'
 
 print(bear)
+
+#change value
+bear['polar'] = 'cream'
+print(bear)
+#check to see if item is in dictionary - search key
+n = input('enter a bear:')
+if n in bear:
+    print('in list. Fur colour is: ',bear[n])
+else:
+    print('not found')
